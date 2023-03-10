@@ -1,0 +1,32 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "",
+  "source": "static/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel",
+    "build": "parcel build --dist-dir build",
+    "start": "node ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-inline-string": "^2.8.3",
+    "classnames": "^2.3.2",
+    "express": "^4.18.2",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.1",
+    "precss": "^4.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "classnames": "^2.3.2"
+  }
+}
