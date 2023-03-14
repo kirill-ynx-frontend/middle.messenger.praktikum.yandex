@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const root = `${__dirname}/build/`; // or `${__dirname}/dist/`
 

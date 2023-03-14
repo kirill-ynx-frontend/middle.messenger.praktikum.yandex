@@ -5,7 +5,7 @@
   "source": "static/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel",
+    "dev": "parcel --open",
     "build": "parcel build --dist-dir build",
     "start": "npm run build && node ./server.js"
   },
@@ -23,10 +23,11 @@
     "postcss-import": "^15.1.0",
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1",
     "precss": "^4.0.0"
   },
   "dependencies": {
-    "handlebars": "^4.7.7",
-    "classnames": "^2.3.2"
+    "classnames": "^2.3.2",
+    "handlebars": "^4.7.7"
   }
 }

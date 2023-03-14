@@ -3,7 +3,7 @@ import "./styles.pcss"
 
 
 const ProfileAvatar = () => {
-    return compile(`<img alt="" src="" class="avatar">`)()
+    return compile(`<img alt="avatar" src="" class="avatar">`)()
 }
 
 export default ProfileAvatar;

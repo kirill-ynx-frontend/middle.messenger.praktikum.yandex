@@ -4,5 +4,6 @@ module.exports = {
         require('postcss-import'),
         require('precss'),
         require('postcss-nested'),
+        require('postcss-simple-vars'),
     ]
 }

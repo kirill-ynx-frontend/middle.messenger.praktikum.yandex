@@ -4,18 +4,16 @@ import {compile} from "handlebars";
 const Chat = () => {
     return compile(
         `
-            <a href="/login">Login page</a>
-            <br/>
-            <a href="/sign-up">Sign up page</a>
-            <br/>
-            <a href="/not-found">Not found page</a>
-            <br/>
-            <a href="/error">Error page</a>
-            <br/>
-            <a href="/profile">Profile page</a>
-            <br/>
-            <a href="/change-password">Change password page</a>
-            <br/>
+            <nav>
+                  <ul>
+                    <li><a href="/login">Login page</a></li>
+                    <li><a href="/sign-up">Sign up page</a></li>
+                    <li><a href="/not-found">Not found page</a></li>
+                    <li><a href="/error">Error page</a></li>
+                    <li><a href="/profile">Profile page</a></li>
+                    <li><a href="/change-password">Change password page</a></li>
+                  </ul>
+            </nav>
         `
     )()
 }
