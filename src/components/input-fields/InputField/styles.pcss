@@ -1,0 +1,45 @@
+@import "../../../styles/_variables.pcss";
+
+.input-text-field {
+    display: flex;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    justify-content: space-between;
+
+    input {
+        box-shadow: 0 0 5px 2px $shadow-black;
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border-width: 0;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    &_not-linear {
+        flex-direction: column;
+
+        label {
+            margin-bottom: 10px;
+        }
+    }
+
+
+    &_linear {
+        flex-direction: row;
+        align-items: center;
+
+        label {
+            white-space: nowrap;
+            margin-right: 10px!important;
+        }
+
+        &-label_even {
+            width: 100%;
+        }
+    }
+
+}
